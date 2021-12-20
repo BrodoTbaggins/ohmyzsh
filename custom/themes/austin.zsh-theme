@@ -1,0 +1,7 @@
+PROMPT='%B%F{34}➜%f%b '
+PROMPT+=' %B%F{39}%c%f%b  $(git_prompt_info)'
+
+ZSH_THEME_GIT_PROMPT_PREFIX="%{%B%F{34}git:(%F{220}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
+ZSH_THEME_GIT_PROMPT_DIRTY="%B%F{34}) %B%F{160}✗"
+ZSH_THEME_GIT_PROMPT_CLEAN="%B%F{34})"
